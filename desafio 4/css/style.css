@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    color: #000;
+    min-height: 100vh;
+}
+
+.division{
+    display: flex;
+}
+
+.particion1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    background-color: #F7FAFC;
+}
+
+.particion2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.titulo{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo p{
+    font-size: 16px;
+    margin: 7px 0px;
+}
+.titulo h1{
+    font-size: 26px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.preencher{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.preencher input{
+    border-radius: 5px;
+}
+
+.email{
+    height: 50px;
+    width: 350px;
+    border: 1px solid black;
+    margin-top: 69px;
+    margin-bottom: 41px;
+}
+
+.senha{
+    height: 50px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+.lembrademim{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+.lembrademim input{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.lembrademim b{
+    color: #000;
+}
+
+.checkbox{
+    margin-right: 11px;
+}
+
+.lembrademim a{
+    color: #2B6CB0;
+    margin-left: 80px;
+}
+
+button{
+    transition: 0.5s;
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    transform: scale(1.03);
+}
+
+.button-green{
+    margin-top: 26px;
+    background-color: #04C35C;
+}
+.button-black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #1A202C;
+    color: #fff;
+}
+
+.button-black img{
+    padding: 0px 11px;
+}
+
+footer{
+    color: #000;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.metade-footer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.metade-footer a{
+    color: #2B6CB0;
+}
