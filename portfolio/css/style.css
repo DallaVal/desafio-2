@@ -1,0 +1,100 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+}
+
+header{
+    background-color: black;
+    height: 734px;
+    width: 100%;
+    background-image: ("./img/bgheader.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    height: 109px;
+    width: calc(100% - 200px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio{
+    color: #00D2DF;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li{
+    padding: 15px;
+}
+
+.menu ul li a{
+    color: white;
+}
+
+.profession{
+    height: 640px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 24px;
+    padding: 5px 0px;
+}
+
+.matheus{
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #00D2DF;
+}
+
+.desenvolvedor{
+    font-size: 24px;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+}
+
+.buttons a{
+    background-color: #02868d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    transition: 0.2s;
+}
+
+.buttons a, .buttons img{
+    padding: 0px 10px;
+}
+
+.buttons a:hover{
+    transform: scale(1.03);
+}
+
+
+
+
